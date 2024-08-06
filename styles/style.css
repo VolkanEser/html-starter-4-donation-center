@@ -94,6 +94,21 @@
     background-color: var(--main-color);
 
 }
+.green-btn {
+    background-color: var(--green-color);
+
+}
+
+
+.orange-btn {
+    background-color: var(--orange-color);
+
+}
+
+.purple-btn {
+    background-color: var(--purple-color);
+
+}
 
 /* .donate-wrapper-image .bg-collect-donat{
     height: 390px;
