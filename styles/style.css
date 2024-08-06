@@ -77,7 +77,8 @@
     font-size: 12px;
     font-weight: 600;
     border: 1px solid #d1d5db;
-    min-width: 120px;
+    min-width: 160px;
+    width: fit-content;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -94,6 +95,7 @@
     background-color: var(--main-color);
 
 }
+
 .green-btn {
     background-color: var(--green-color);
 
@@ -161,14 +163,16 @@
     align-items: center;
     justify-content: space-between;
     margin-bottom: 1rem;
-    
+    border-radius: 0.5rem;
+
 
 }
-.container .donate-card:first-child{
-    margin-top: 1rem;
-    
 
-} 
+.container .donate-card:first-child {
+    margin-top: 1rem;
+
+
+}
 
 .donate-card div {
     width: 50%;
@@ -176,8 +180,8 @@
 
 .donate-card div.donate-card-content {
     gap: 0.5rem;
-display: flex;
-flex-direction: column;
+    display: flex;
+    flex-direction: column;
 
 }
 
