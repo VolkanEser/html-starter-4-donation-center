@@ -1,0 +1,94 @@
+ /*! responsive start */
+
+
+
+ @media(max-width: 991px) {
+
+     .header .navigation  {
+         display: none;
+     }
+
+     .header {
+         max-width: 991px;
+     }
+
+
+
+     .container {
+         width: 700px !important;
+     }
+
+
+     .header .svg {
+         display: none;
+     }
+
+     .header .header-account {
+         display: none;
+     }
+
+     .header .header-input {
+         display: none;
+     }
+ }
+
+ @media(max-width: 768px) {
+
+     .container {
+         width: 600px !important;
+     }
+
+     .ahmet {
+         justify-content: space-between !important;
+         width: 100%;
+     }
+
+
+     .container .donate-card {
+         flex-direction: column-reverse;
+         padding: 1rem;
+     }
+
+     .donate-card div {
+         width: 100% !important;
+     }
+
+
+
+
+
+ }
+
+
+
+ @media(max-width: 576px){
+
+.container{
+    width: 400px !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+ /*! responsive  end */
