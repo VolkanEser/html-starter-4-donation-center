@@ -13,7 +13,11 @@
      }
 
 
-
+     .ahmet {
+        justify-content: space-between !important;
+        width: 100%;
+    }
+    
      .container {
          width: 700px !important;
      }
@@ -38,10 +42,7 @@
          width: 600px !important;
      }
 
-     .ahmet {
-         justify-content: space-between !important;
-         width: 100%;
-     }
+ 
 
 
      .container .donate-card {
