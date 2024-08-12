@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-
 @import url("./reset.css");
 @import url("./responsive.css");
+@import url("./auth-login.css");
 
 :root {
     --main-color: #3b82f6;
@@ -239,8 +239,6 @@ html{
 .mehmet {
     display: flex;
     align-items: center;
-    
-    
     gap: 13rem;
     justify-content: center;
     height: 100vh;
@@ -352,9 +350,9 @@ html{
     margin-top: 1.5rem;
 }
 
-/* .text label{
-margin-top: ;
-} */
+.text label{
+margin-top:2rem ;
+}
 
 
 .text .h {
@@ -370,6 +368,9 @@ margin-top: ;
     border: 1px solid #ccc;
 
 }
+
+
+.ekrans
 
 .ekran .text{
 
@@ -474,6 +475,5 @@ input:focus{
     text-decoration: none;
     
 }
-
 
 /* logen bitişi */
