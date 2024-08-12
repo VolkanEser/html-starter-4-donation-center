@@ -271,6 +271,15 @@ html{
     width: 100%;
 
 }
+.form-baslangici .logo{
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+        color: inherit;
+        text-decoration: inherit;
+        display: inline-block;
+        display: none;
+}
+
 
 .form-baslangici h2 {
     font-family: Montserrat;

@@ -95,7 +95,7 @@
      .mehmet {
          width: 992px !important;
      }
-
+  
 
  }
 
@@ -112,7 +112,36 @@
          gap: 3rem !important;
      }
 
-     @media (max-width: 780px) 
+     @media (max-width: 800px) {
+         .auth-img {
+             display: none !important;
+         }
+
+
+         .colum-duzenleme {
+             width: 350px !important;
+         }
+
+         .form-baslangici .logo{
+            display:inline-block !important;
+         }
+
+         /* a {
+             background: url(../images/logo.b86164f1.svg);
+             margin-bottom: 2rem;
+             margin-top: 2rem;
+             color: inherit;
+             text-decoration: inherit;
+             display: inline-block;
+
+         } */
+     }
+
+     @media (max-width: 700px) {
+         .mehmet {
+             width: 600px !important;
+         }
+     }
 
  }
 
