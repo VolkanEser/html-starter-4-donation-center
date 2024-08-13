@@ -95,7 +95,7 @@
      .mehmet {
          width: 992px !important;
      }
-  
+
 
  }
 
@@ -122,8 +122,8 @@
              width: 350px !important;
          }
 
-         .form-baslangici .logo{
-            display:inline-block !important;
+         .form-baslangici .logo {
+             display: inline-block !important;
          }
 
          /* a {
@@ -141,9 +141,22 @@
          .mehmet {
              width: 600px !important;
          }
+
+         }
+
      }
+ @media (max-width: 991px){
+    
+         .click.active {
+             display: block;
 
  }
+ .btn{
+    di;
+ }
+
+ }
+
 
 
  /*! responsive  end */

@@ -1,25 +1,69 @@
-// const myBtn = document.querySelector(".myBtn")
+/*
 
-// myBtn.addEventListener("click", () => {
+** ELEMENT SEÇMEK  BAŞLADI. ** 
+
+herhangi bir elementi seçmek için,
+document.querySelector kullanılabilir.
+
+querySelector(".test") --> test class için bu şekilde.
+querySelector("#test") --> test id için bu şekilde
 
 
-//     // document.body.style.backgroundColor = "red"
+ya da sadece id seçmek için getElementById("test")
 
-//     // alert("asdkljasdj")
+** ELEMENT SEÇMEK BİTTİ. ** 
 
-// })
 
-/*javascripte degişken tanımlamaları assagıdaki gibidır 
-ilk kelime kücuk harfle baslar ikinci lelimenın ılk harfi buyuk harfle baslar 
-ornek:
-cengizKurtoglu
-volkanEser 
+----
+
+
+** DEĞİŞKENLER BAŞLADI.  ** 
+
+let, const (javascript)
+
+var (artık kullanılmıyor)
+
+
+let, const farkı?
+
+let: değişebilir değişkenlerde let kullanabiliriz.
+const: sabit değerler için const kullanailiriz.
+
+örneğin
+
+let sayi1, sayi2, toplam;
+sayi1= 10;
+sayi=20;
+
+toplam = sayi1+sayi2;
+
+sayi1= 30;
+
+const pi = 3.18
+
+** DEĞİŞKENLER BİTTİ.  ** 
+
+
+----
+
+
+** EVENTLISTENERS BAŞLADI.  ** 
+
+element etkileşiminde kullanılır. örneğin buton üstüne gelince ayrılınca vb...
+
+.classList.toggle("active")) --> geçiş yapmak için kullanılır. herhangi bir element tetiklendiğinde bir sonrakinde silebiliriz.
+
+** EVENTLISTENERS BİTTİ.  ** 
 
 */
 const toggleBtn = document.querySelector(".toggle-btn");
-toggleBtn.
+const mobileMenu = document.querySelector(".click");
+
+toggleBtn.addEventListener("click", () => {
+    mobileMenu.classList.toggle("active")
+})
 
 
-// ! butons
 
-const navbar = document.querySelector(".navbar");
+
+
