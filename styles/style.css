@@ -139,10 +139,20 @@ body {
     width: 100%;
     height: 390px;
 }
+.donate-wrapper-image.duvar{
+    background: url(../images/donate.848f843e.png);
+    height: 390px;
+    width: 100%;
+    background-position: center;
+
+  
+    
+} 
 
 .donate-wrapper-image div {
     height: 100%;
 }
+
 
 .donate-wrapper-content {
     display: flex;
@@ -517,5 +527,118 @@ input:focus {
     right: 0;
     display: none;
 }
+.alt-ust-bosluk{
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+.alt-ust-bosluk h3{
+    margin-bottom: .75rem;
+    font-size: .875rem;
+    line-height: 1.25rem;
+    font-weight: 400;
+    color: #9ca3af;
+}
+.buttonn{
+    display: flex;
+    gap: 1rem;
+    scroll-behavior: smooth;
+    margin-top: 1rem;
+}
+.px-9{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    border-radius: 4px;
+    font-size: .875rem;
+    line-height: 1.25rem;
+    font-weight: 400;
+    background-color: #3b82f6;
+    color: white;
+    cursor: pointer;
+    border-style:none ;
+}
+.px-5{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
 
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    background-color: white;
+    border-color: #f3f4f6;
+    border-width: 1px;
+    border-radius: 4px;
+    font-size: .875rem;
+    line-height: 1.25rem;
+    font-weight: 400;
+    --tw-text-opacity: 1;
+    color: #6b7280;
+    cursor: pointer;
+    border-style:none ;
+}
+.baslik{
+    margin-bottom: 1.5rem;
+
+    margin-top: 2.5rem;
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    font-weight: 300;
+    color: #111827;
+
+.baslik h2{
+    margin: 0;
+    font-size: inherit;
+    font-weight: inherit;
+}
+.baslik  {
+    display: flex;
+    background-color: red;
+}
+.container .bosluk{
+    gap: 1rem;
+    display: flex;
+    margin-top: 1.5rem;
+}
+/* .container  select{
+    padding: 16px;
+    background-color: white;
+    border-color: #f3f4f6;
+    border-width: 1px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    gap: 1rem;
+    display: flex;
+    position: relative;
+    font-size: .875rem;
+    line-height: 1.25rem;
+    font-weight: 400;
+    color: #4b5563;
+} */
+/* .container .bosluk option{
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    padding-left: .75rem;
+    padding-right: .75rem;
+    gap: 4rem;
+    align-items: center;
+    cursor: pointer;
+    display: flex; */
+}
+/* .container select{
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    padding-left: .75rem;
+    padding-right: .75rem;
+    gap: 4rem;
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+
+} */
+/* .container select{
+    gap: 1rem;
+    display: flex;
+    margin-top: 1.5rem;
+} */
 /* logen bitişi */
