@@ -1,6 +1,16 @@
  /*! responsive start */
 
-
+ @media(max-width: 1330px) {
+     .container {
+         width: 900px !important;
+     }
+     .header .navigation {
+        display: none;
+    }
+  .header input{
+    display: none;
+  }
+ }
 
  @media(max-width: 991px) {
 
@@ -142,20 +152,27 @@
              width: 600px !important;
          }
 
-         }
+     }
+
+ }
+
+ @media (max-width: 991px) {
+
+     .click.active {
+         display: block;
 
      }
- @media (max-width: 991px){
-    
-         .click.active {
-             display: block;
+
 
  }
- .btn{
-    
+
+ @media (min-width: 768px) {
+     .mt-5 {
+         gap: 0px;
+         justify-content: space-between;
+     }
  }
 
- }
 
 
 

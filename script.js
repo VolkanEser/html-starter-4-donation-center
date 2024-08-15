@@ -59,11 +59,19 @@ element etkileşiminde kullanılır. örneğin buton üstüne gelince ayrılınc
 const toggleBtn = document.querySelector(".toggle-btn");
 const mobileMenu = document.querySelector(".click");
 
-toggleBtn.addEventListener("click", () => {
-    mobileMenu.classList.toggle("active")
-})
+// toggleBtn.addEventListener("click", () => {
+//     mobileMenu.classList.toggle("active")
+// })
 
 
-
-
-
+toggleBtn.addEventListener("click", function(){
+    mobileMenu.classList.toggle("active");
+    document.addEventListener("click", function (e) {
+        if (
+            !e.composedPath().includes(toggleBtn) && 
+            !e.composedPath().includes(mobileMenu)
+        ){
+            mobileMenu.classList.remove("active");
+        }
+    });
+    });
