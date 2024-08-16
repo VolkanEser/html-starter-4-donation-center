@@ -55,7 +55,8 @@ body {
     gap: 0.6rem;
     justify-content: center;
 }
-.container .header-items{
+
+.container .header-items {
     color: #4b5563;
 }
 
@@ -66,9 +67,10 @@ body {
     color: #4b5563;
 
 }
-.navigation-list a{
+
+.navigation-list a {
     color: #4b5563;
-text-decoration: none;
+    text-decoration: none;
 }
 
 .header div input {
@@ -629,12 +631,18 @@ input:focus {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
     gap: 2rem;
+
 }
 
 .border-color {
     padding: 1rem;
     background-color: white;
     border-radius: .5rem;
+}
+
+.border-color a {
+    text-decoration: none;
+
 }
 
 .tablo {
@@ -832,11 +840,11 @@ input:focus {
     -webkit-appearance: button;
 }
 
- .sayilar .ozel-button {
+.sayilar .ozel-button {
     background-color: white;
     border-color: #2563eb;
     border-style: solid;
-     border-width: 1px;
+    border-width: 1px;
     border-radius: 4px;
     width: 2rem;
     height: 2rem;
@@ -845,4 +853,246 @@ input:focus {
     font-weight: 500;
     color: #111827;
 
+}
+
+.container .ayrıntı {
+    margin-top: 2rem;
+    margin-bottom: 10rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.resim-bolumu {
+    gap: 2rem;
+    /* grid-template-columns: repeat(8, minmax(0, 1fr));
+    display: grid; */
+}
+
+.resimm {
+    width: 640px;
+    height: 360px;
+    height: auto;
+    display: block;
+    position: relative;
+
+}
+
+/* .resimm{
+    width: 640px;
+    height: 360px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    vertical-align: middle;
+} */
+.resimm img {
+    width: 100%;
+}
+
+.resimm .actions {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    top: 0;
+}
+
+
+.resimm .actions span {
+    padding: 0.5rem;
+}
+
+
+.kucuk-resimler {
+    width: 640px;
+
+}
+
+
+
+.kucuk-resimler {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1rem;
+    gap: 1rem;
+
+}
+
+.kucuk-resimler div img {
+    max-width: 192px;
+    border: 1px solid #ccc;
+    border-radius: .5rem;
+
+}
+
+
+
+
+
+
+.disply{
+    display: flex;
+}
+
+
+
+
+
+
+
+.kisi-icerik {
+    display: flex;
+    justify-content: space-between;
+}
+
+.kisi-logo {
+    display: flex;
+    gap: 1rem;
+}
+
+.kisi-resim img {
+    border-radius: .5rem;
+    width: 3.5rem;
+    height: 3.5rem;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    vertical-align: middle;
+}
+
+.yildizli-bolum {
+    display: flex;
+    flex-direction: column;
+    gap: .375rem;
+}
+
+.yildizli-bolum-ust {
+    display: flex;
+    gap: .75rem;
+    align-items: center;
+}
+
+.yildizli-bolum-ust h5 {
+    color: #111827;
+
+    font-weight: 600;
+}
+
+.yildizlar {
+    display: flex;
+}
+
+.yildizlar svg {
+    display: block;
+    vertical-align: middle;
+}
+
+.kisi-resim img {
+    width: 3.5rem;
+    height: 5rem;
+    object-fit: cover;
+    max-width: 100%;
+
+}
+
+.kisi-ayrintileri span {
+    font-size: .875rem;
+    line-height: 1.25rem;
+    font-weight: 400;
+    color: #6b7280;
+}
+.paylas-yeri{
+    display: flex;
+    gap:1.25rem;
+    align-items: center;
+}
+.disply{
+    gap: 5rem;
+}
+.aciklama h2{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 600;
+    margin: 0;
+    margin-top:.75rem;
+}
+.aciklama p{
+    font-size: .875rem;
+    line-height: 1.25rem;
+    font-weight: 400;
+    color: #6b7280;
+    margin-top: .5rem;
+}
+.ic-bosluk{
+    margin-bottom: 1rem;
+    margin-top: 0;
+    border-radius: .5rem;
+    border-width: 1px;
+    border-color: #f3f4f6;
+    padding: 1rem;
+}
+.ic-bosluk span{
+    margin-left: calc(76%);
+    font-size: .75rem;
+    line-height: 1rem;
+    font-weight: 600;
+}
+.alt-bolum-1{
+    display: flex;
+    gap: .75rem;
+}
+.alt-bolum svg{
+    display: block;
+    vertical-align: middle;
+    height: 1.25rem;
+}
+.alt-bolum{
+    
+        display: flex;
+    justify-content: space-between;
+}
+.toplam-miktar{
+    display: flex;
+    gap: .75rem;
+}
+.toplam-miktar h5{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 600;
+    color: #374151;
+}
+.toplanan-miktar h5{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 600;
+    color: #dc2626;
+    margin: 0;
+}
+.toplanan-miktar small{
+    font-size: .75rem;
+    line-height: 1rem;
+    font-weight: 400;
+    color: #6b7280;
+}
+.kalan-miktar{
+    display: flex;
+    gap: .75rem;
+}
+
+.kalan-miktar h5{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 600;
+    color: #16a34a;
+}
+.gun small{
+    font-size: .75rem;
+    line-height: 1rem;
+    font-weight: 400;
+    color: #6b7280;
 }

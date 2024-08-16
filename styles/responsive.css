@@ -173,7 +173,9 @@
      }
  }
 
-
-
-
+ @media (min-width: 768px) {
+    .resim-bolumu {
+        grid-column: span 4 / span 4;
+}
+}
  /*! responsive  end */
