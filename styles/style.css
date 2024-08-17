@@ -1225,6 +1225,12 @@ input:focus {
     border: none;
 }
 
+.miktar-yeri input:focus {
+    border: 2px solid blue;
+    /* Kenar çizgisinin rengini ve kalınlığını ayarlar */
+    outline: none
+}
+
 .bagis-yap-yeri {
     width: 100%;
     margin-top: 1rem;
@@ -1258,7 +1264,7 @@ input:focus {
     /* border-color: #f3f4f6; */
     border-width: 1px;
     margin-bottom: 2rem;
-   
+
 }
 
 .proje-hakkinda-bolumu-baslik h2 {
@@ -1292,7 +1298,7 @@ input:focus {
 .alt-basliklar {
     gap: 2rem;
     display: flex;
-    
+
 }
 
 .alt-basliklar a {
@@ -1313,7 +1319,7 @@ input:focus {
     margin-top: 1rem;
     margin-bottom: 1rem;
 
-width: 640px;
+    width: 640px;
 
 
 }
@@ -1338,7 +1344,7 @@ width: 640px;
     display: flex;
     width: 640px;
     margin-bottom: 2rem;
-    
+
 }
 
 .bagislar-header {
@@ -1381,6 +1387,8 @@ width: 640px;
     justify-content: space-between;
     align-items: center;
     display: flex;
+    margin-top: 1rem;
+    border-top:  .2px solid #ced1d6;
 }
 
 .wade-warren-resim {
@@ -1405,9 +1413,22 @@ width: 640px;
     font-size: .875rem;
     line-height: 1.25rem;
 }
-.tarih  span{
-  font-weight: 400;
-  color: #4b5563;
-  font-size: .875rem;
-  line-height: 1.25rem;
+
+.tarih span {
+    font-weight: 400;
+    color: #4b5563;
+    font-size: .875rem;
+    line-height: 1.25rem;
 }
+
+.total span {
+    color: rgb(17 24 39 / var(--tw-text-opacity));
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.paralar .cizgi {
+    border: .5px solid  #c5c9ce;
+}
+    
