@@ -468,7 +468,6 @@ html {
     font-size: 1rem;
     line-height: 1.5rem;
     font-weight: 400;
-    --tw-text-opacity: 1;
     color: #6b7280;
     margin: 0;
     margin-top: 1rem;
@@ -664,11 +663,9 @@ input:focus {
     margin-top: -40px;
     border-radius: 4px;
     border-width: 1px;
-    --tw-border-opacity: 1;
     border-color: #173155;
     background-color: #0f255480;
     padding: .5rem .75rem;
-    --tw-text-opacity: 1;
     color: white;
     font-size: .75rem;
     line-height: 1rem;
@@ -935,7 +932,7 @@ input:focus {
 
 
 
-.disply{
+.disply {
     display: flex;
 }
 
@@ -1006,29 +1003,34 @@ input:focus {
     font-weight: 400;
     color: #6b7280;
 }
-.paylas-yeri{
+
+.paylas-yeri {
     display: flex;
-    gap:1.25rem;
+    gap: 1.25rem;
     align-items: center;
 }
-.disply{
+
+.disply {
     gap: 5rem;
 }
-.aciklama h2{
+
+.aciklama h2 {
     font-size: 1rem;
     line-height: 1.5rem;
     font-weight: 600;
     margin: 0;
-    margin-top:.75rem;
+    margin-top: .75rem;
 }
-.aciklama p{
+
+.aciklama p {
     font-size: .875rem;
     line-height: 1.25rem;
     font-weight: 400;
     color: #6b7280;
     margin-top: .5rem;
 }
-.ic-bosluk{
+
+.ic-bosluk {
     margin-bottom: 1rem;
     margin-top: 0;
     border-radius: .5rem;
@@ -1036,63 +1038,376 @@ input:focus {
     border-color: #f3f4f6;
     padding: 1rem;
 }
-.ic-bosluk span{
+
+.ic-bosluk span {
     margin-left: calc(76%);
     font-size: .75rem;
     line-height: 1rem;
     font-weight: 600;
 }
-.alt-bolum-1{
+
+.alt-bolum-1 {
     display: flex;
     gap: .75rem;
 }
-.alt-bolum svg{
+
+.alt-bolum svg {
     display: block;
     vertical-align: middle;
     height: 1.25rem;
 }
-.alt-bolum{
-    
-        display: flex;
+
+.alt-bolum {
+
+    display: flex;
     justify-content: space-between;
 }
-.toplam-miktar{
+
+.toplam-miktar {
     display: flex;
     gap: .75rem;
 }
-.toplam-miktar h5{
+
+.toplam-miktar h5 {
     font-size: 1rem;
     line-height: 1.5rem;
     font-weight: 600;
     color: #374151;
 }
-.toplanan-miktar h5{
+
+.toplanan-miktar h5 {
     font-size: 1rem;
     line-height: 1.5rem;
     font-weight: 600;
     color: #dc2626;
     margin: 0;
 }
-.toplanan-miktar small{
+
+.toplanan-miktar small {
     font-size: .75rem;
     line-height: 1rem;
     font-weight: 400;
     color: #6b7280;
 }
-.kalan-miktar{
+
+.kalan-miktar {
     display: flex;
     gap: .75rem;
 }
 
-.kalan-miktar h5{
+.kalan-miktar h5 {
     font-size: 1rem;
     line-height: 1.5rem;
     font-weight: 600;
     color: #16a34a;
 }
-.gun small{
+
+.gun small {
     font-size: .75rem;
     line-height: 1rem;
     font-weight: 400;
     color: #6b7280;
+}
+
+.kalan-miktar small {
+    font-size: .75rem;
+    line-height: 1rem;
+    font-weight: 400;
+    color: #6b7280;
+}
+
+/* }
+
+}
+
+
+} */
+.border {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    border-radius: .5rem;
+    border-width: 1px;
+    /* border-color: #f3f4f6; */
+    padding: 1rem;
+    border: 2px solid #f3f4f6;
+    ;
+}
+
+.para {
+    display: flex;
+    height: 3.5rem;
+    align-items: center;
+    justify-content: space-between;
+    gap: .75rem;
+    width: 100%;
+}
+
+.para-bosluk {
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 3.5rem;
+    display: flex;
+}
+
+.paralar {
+    padding: .25rem;
+    background-color: #f3f4f6;
+    border-radius: .5rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    width: auto;
+}
+
+.paralar .ozel-para {
+    border-width: 1.5px;
+    border-style: solid;
+    border-color: #3b82f6;
+    background-color: #dbeafe;
+    color: #111827;
+    height: 48px;
+    border-radius: .5rem;
+    padding-left: .75rem;
+    padding-right: .75rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 600;
+    cursor: pointer;
+    background-image: none;
+    text-transform: none;
+    margin: 0;
+
+}
+
+.paralar button {
+    height: 48px;
+
+    border-radius: .5rem;
+    padding-left: .75rem;
+    padding-right: .75rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 600;
+    color: #4b5563;
+    padding: .75rem 1.25rem;
+    cursor: pointer;
+    background-color: transparent;
+    background-image: none;
+    text-transform: none;
+    font-family: inherit;
+    border: none;
+}
+
+.miktar-yeri {
+    display: flex;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding: .25rem;
+    background-color: #f3f4f6;
+    border-color: #e5e7eb;
+    border-width: 1px;
+    border-radius: .5rem;
+    gap: 1rem;
+    align-items: center;
+    height: 100%;
+}
+
+.miktar-yeri input {
+    background-color: transparent;
+    max-width: 136px;
+    font-family: inherit;
+    font-size: 100%;
+    font-weight: inherit;
+    line-height: inherit;
+    color: inherit;
+    margin: 0;
+    border: none;
+}
+
+.bagis-yap-yeri {
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.bagis-yap-yeri a {
+
+    border-radius: .375rem;
+    gap: .875rem;
+    background-color: #f97316;
+    color: white !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: .75rem 1.25rem;
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.son {
+    gap: 2rem;
+    grid-template-columns: repeat(8, minmax(0, 1fr));
+    display: flex;
+    margin-top: 2rem;
+
+}
+
+.kapsayicinin-alti {
+    padding: 1rem;
+    border: 2px solid #f3f4f6;
+    /* border-color: #f3f4f6; */
+    border-width: 1px;
+    margin-bottom: 2rem;
+   
+}
+
+.proje-hakkinda-bolumu-baslik h2 {
+    color: rgb(31 41 55 / var(--tw-text-opacity));
+    font-weight: 600;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    margin-bottom: 1rem;
+    margin: 0;
+    font-size: inherit;
+    font-weight: inherit;
+    margin: 0;
+}
+
+/* .proje-hakkinda-bolumu-baslik div{
+    gap: 2rem;
+    display: flex;
+} */
+.alt-basliklar .ozel {
+    color: #1f2937;
+    font-weight: 600;
+    font-size: .875rem;
+    line-height: 1.25rem;
+    border-bottom-color: #111827;
+    border-bottom-width: 1px;
+    text-decoration: inherit;
+    display: inline-block;
+    text-decoration: underline;
+}
+
+.alt-basliklar {
+    gap: 2rem;
+    display: flex;
+    
+}
+
+.alt-basliklar a {
+    color: #9ca3af;
+    font-weight: 400;
+    font-size: .875rem;
+    line-height: 1.25rem;
+    text-decoration: inherit;
+    display: inline-block;
+    margin-top: 1rem;
+}
+
+.aciklama {
+    color: #6b7280;
+    font-weight: 400;
+    font-size: .875rem;
+    line-height: 1.25rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+width: 640px;
+
+
+}
+
+.aciklama p {
+    margin: 0;
+
+}
+
+.aciklama .metin-2 {
+    margin: 0;
+    margin-top: .5rem;
+}
+
+.bagislar-tablosu-bosluk {
+    background-color: white;
+    border-width: 1px;
+    padding: 1rem;
+    border-color: #f3f4f6;
+    border-radius: .5rem;
+    flex-direction: column;
+    display: flex;
+    width: 640px;
+    margin-bottom: 2rem;
+    
+}
+
+.bagislar-header {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+.bagislar-header h5 {
+    font-weight: 600;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    margin: 0;
+}
+
+.bagislar-header button {
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    padding-left: .75rem;
+    padding-right: .75rem;
+    background-color: white;
+    border-color: #f3f4f6;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 4px;
+    font-size: .875rem;
+    line-height: 1.25rem;
+    font-weight: 400;
+    color: #4b5563;
+    cursor: pointer;
+    text-decoration: none;
+    background-image: none;
+}
+
+.wade-warren {
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    border-bottom-color: #f3f4f6;
+    border-bottom-width: 1px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+.wade-warren-resim {
+    gap: 1rem;
+    align-items: center;
+    display: flex;
+}
+
+.wade-warren-resim img {
+    border-radius: 9999px;
+    width: 42px;
+    height: 42px;
+    max-width: 100%;
+    display: block;
+    vertical-align: middle;
+
+}
+
+.wade-warren-resim span {
+    color: #374151;
+    font-weight: 400;
+    font-size: .875rem;
+    line-height: 1.25rem;
+}
+.tarih  span{
+  font-weight: 400;
+  color: #4b5563;
+  font-size: .875rem;
+  line-height: 1.25rem;
 }
